@@ -55,7 +55,6 @@ resume-landing/
 - Stats Section
 - Features Section
 - Templates Section
-- Testimonials Section
 - Call-to-Action Section
 - FAQ Section
 - Footer
