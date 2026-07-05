@@ -202,7 +202,7 @@ a {
 .hero-form {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 24px;
     flex-wrap: wrap;
     margin-top: 32px;
 }
@@ -344,7 +344,6 @@ a {
 
 .card-grid-2 {
     grid-template-columns: repeat(2, 1fr);
-    
     width: 100%;
 }
 
@@ -515,9 +514,11 @@ a {
     color: var(--text-muted);
     font-size: 0.85rem;
 }
-.testimonial-card{
+
+.testimonial-card {
     min-width: 0;
 }
+
 /* 9. CTA-BAND*/
 
 .cta-band {
@@ -530,6 +531,7 @@ a {
 
 .cta-band .btn {
     margin: 0 6px;
+    gap: 24px;
 }
 
 .cta-band .section-subtext {
@@ -646,7 +648,7 @@ a {
     }
 
     .card-grid,
-    .card-grid-3, 
+    .card-grid-3,
     .card-grid-2 {
         grid-template-columns: 1fr;
     }
