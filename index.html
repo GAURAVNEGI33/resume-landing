@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResumeFlow — Build a resume that gets you hired</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!--1. NAVIGATION BAR-->
+    <header class="navbar">
+        <nav class="nav container">
+            <p class="logo">ResumeFlow</p>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#templates">Templates</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="#" class="btn btn-primary">Start Free</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--2. HERO SECTION-->
+        <section class="hero container">
+            <p class="hero-badge">
+                <span class="badge-dot"></span>
+                ✨ AI-Powered Resume Builder
+            </p>
+            <!--here span is best suitable for first line white and second line gradient -->
+            <h1>
+                <span class="heading-white">Land Your Dream Job</span>
+                <span class="heading-gradient">With a Stunning Resume</span>
+            </h1>
+            <p class="hero-subtext">
+                Create a professionally designed resume in minutes. Powered by AI to
+                highlight your strengths and pass ATS systems. No design skills required.
+            </p>
+            <form class="hero-form">
+                <label for="hero-name" class="visually-hidden">Your name</label>
+                <input type="text" id="hero-name" placeholder="Enter your name..." />
+                <button type="submit" class="btn btn-primary btn-lg">Create Resume Free</button>
+            </form>
+            <ul class="reassurance">
+                <li>💳 No credit card</li>
+                <li>🔒 100% private</li>
+                <li>⚡ Takes 5 minutes</li>
+            </ul>
+        </section>
+
+        <!--3. STATS STRIP-->
+        <section class="stats container">
+            <dl class="stat-item">
+                <dt id="stat-resumes">50K+</dt>
+                <dd>Resumes created</dd>
+            </dl>
+            <dl class="stat-item">
+                <dt>92%</dt>
+                <dd>Interview rate</dd>
+            </dl>
+            <dl class="stat-item">
+                <dt>4.9/5</dt>
+                <dd>Average rating</dd>
+            </dl>
+            <dl class="stat-item">
+                <dt>24/7</dt>
+                <dd>Support</dd>
+            </dl>
+        </section>
+
+        <!-- 4. FEATURES SECTION-->
+        <section id="features" class="features container">
+            <h2>Powerful Features</h2>
+            <p class="section-subtext">Everything you need to create a resume that stands out</p>
+            <ul class="card-grid">
+                <li>
+                    <article class="card">
+                        <p class="card-icon" aria-hidden="true">🎨</p>
+                        <h3>AI Design</h3>
+                        <p>AI optimizes your resume layout for maximum impact.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card">
+                        <p class="card-icon" aria-hidden="true">📱</p>
+                        <h3>Mobile Friendly</h3>
+                        <p>Build and edit on any device, anytime, anywhere.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card">
+                        <p class="card-icon" aria-hidden="true">✨</p>
+                        <h3>20+ Templates</h3>
+                        <p>Modern, professional templates for every industry.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card">
+                        <p class="card-icon" aria-hidden="true">⚡</p>
+                        <h3>Instant Export</h3>
+                        <p>Download as PDF, Word, or share a link instantly.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card">
+                        <p class="card-icon" aria-hidden="true">🤖</p>
+                        <h3>Smart Content</h3>
+                        <p>AI suggestions to improve your resume wording.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="card">
+                        <p class="card-icon" aria-hidden="true">🔒</p>
+                        <h3>Secure & Private</h3>
+                        <p>Your data is encrypted and never sold.</p>
+                    </article>
+                </li>
+            </ul>
+
+        </section>
+
+        <!--HOW IT WORKS SECTION-->
+        <section id="how-it-works" class="how-it-works container">
+            <h2>How It Works</h2>
+            <p class="section-subtext">Just 3 simple steps to your perfect resume</p>
+            <ol class="steps-list">
+                <li class="step-card">
+                    <h3>Choose Template</h3>
+                    <p>Select from 20+ professionally designed templates.</p>
+                </li>
+                <li class="step-card">
+                    <h3>Fill Your Info</h3>
+                    <p>Add your experience, skills, and education.</p>
+                </li>
+                <li class="step-card">
+                    <h3>Download &amp; Apply</h3>
+                    <p>Export as PDF and start applying to jobs.</p>
+                </li>
+            </ol>
+        </section>
+
+        <!--5. TEMPLATES SECTION-->
+        <section id="templates" class="templates container">
+            <h2>Stunning Templates</h2>
+            <p>Each template is ATS-optimized and mobile-responsive</p>
+
+            <ul class="card-grid card-grid-3">
+
+                <li>
+                    <article class="template-card">
+                        <p class="badge">Modern Template</p>
+
+                        <h3>Sarah Johnson</h3>
+                        <p class="role">Senior Product Manager</p>
+
+                        <ul class="details">
+                            <li>📍 Tech Lead at Innovative Co.</li>
+                            <li>🎓 BS Computer Science</li>
+                            <li>💼 5+ years experience</li>
+                        </ul>
+
+                        <button type="button">Use Template</button>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="template-card">
+                        <p class="badge">Creative Template</p>
+
+                        <h3>Marcus Chen</h3>
+                        <p class="role">Full Stack Developer</p>
+
+                        <ul class="details">
+                            <li>📍 Tech Lead at Innovative Co.</li>
+                            <li>🎓 BS Computer Science</li>
+                            <li>💼 5+ years experience</li>
+                        </ul>
+
+                        <button type="button">Use Template</button>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="template-card">
+                        <p class="badge">Minimal Template</p>
+
+                        <h3>Emily Rodriguez</h3>
+                        <p class="role">UX/UI Designer</p>
+
+                        <ul class="details">
+                            <li>📍 Tech Lead at Innovative Co.</li>
+                            <li>🎓 BS Computer Science</li>
+                            <li>💼 5+ years experience</li>
+                        </ul>
+
+                        <button type="button">Use Template</button>
+                    </article>
+                </li>
+
+            </ul>
+        </section>
+
+
+        <!-- 7. CALL-TO-ACTION BAND  -->
+        <section class="cta-band container">
+            <h2>Ready to Get Hired?</h2>
+            <p class="section-subtext">Stop losing job opportunities. Create your perfect resume in minutes and start
+                your dream career today.</p>
+            <a href="#" class="btn btn-primary btn-lg">Create My Resume Now</a>
+            <a href="#" class="btn btn-outline btn-lg">Watch Demo</a>
+        </section>
+
+        <!--8. FAQ SECTION-->
+        <section id="faq" class="faq container">
+            <h2>Questions?</h2>
+            <p class="section-subtext">Everything you need to know</p>
+            <ul class="faq-list">
+                <li>
+                    <article class="faq-item">
+                        <h3>Is ResumeFlow really free?</h3>
+                        <p>Yes, it's completely free to create, edit, and download unlimited resumes. No hidden charges,
+                            no subscriptions.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="faq-item">
+                        <h3>Are the templates ATS-friendly?</h3>
+                        <p>Yes, every template is designed and tested to pass Applicant Tracking Systems.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="faq-item">
+                        <h3>Can I import my resume from LinkedIn?</h3>
+                        <p>Yes, you can import your LinkedIn profile to auto-fill your resume details.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="faq-item">
+                        <h3>Is my data secure?</h3>
+                        <p>Yes, your data is encrypted and never sold or shared with third parties.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!--  9. FOOTER  -->
+    <footer class="footer">
+        <section class="container footer-grid">
+            <section class="footer-brand">
+                <p class="logo">ResumeFlow</p>
+                <p>Build your perfect resume in minutes.</p>
+            </section>
+            <nav class="footer-col" aria-label="Product">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#templates">Templates</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-col" aria-label="Company">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-col" aria-label="Resources">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">API</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-col" aria-label="Legal">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <p class="copyright">© <span id="year"></span> ResumeFlow. Helping people get hired. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
