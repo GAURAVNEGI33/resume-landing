@@ -585,39 +585,54 @@ a {
 
 /* 12. FOR RESPONSIVE*/
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2rem;
-    }
+  .hero h1 {
+    font-size: 2rem;
+  }
 
-    h2 {
-        font-size: 1.75rem;
-    }
+  h2 {
+    font-size: 1.75rem;
+  }
 
-    .nav-links {
-        display: none;
-        
-    }
+  .nav-links {
+    display: none;
+  }
 
-    .card-grid,
-    .card-grid-3 {
-        grid-template-columns: 1fr;
-    }
+  .card-grid,
+  .card-grid-3 {
+    grid-template-columns: 1fr;
+  }
 
-    .footer-grid {
-        grid-template-columns: 1fr;
-    }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
 
-    .hero {
-        padding: 60px 24px;
-    }
+  .hero {
+    padding: 60px 24px;
+  }
 
-    .hero-form {
-        flex-direction: column;
-        align-items: center;
-    }
+  .hero-badge {
+    flex-wrap: wrap;
+    max-width: 90%;
+    text-align: center;
+  }
 
-    .hero-form input {
-        width: 100%;
-        max-width: 320px;
-    }
+  .hero-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-form input {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .steps-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .step-card:not(:last-child)::after {
+    display: none;
+  }
 }
