@@ -160,6 +160,18 @@ a {
     margin-left: 12px;
 }
 
+.btn-nav-text {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-left: 12px;
+}
+
+.btn-nav-text:hover {
+    color: var(--accent-green);
+}
+
 /* 4.HERO */
 .hero {
     text-align: center;
