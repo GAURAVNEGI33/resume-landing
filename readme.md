@@ -8,7 +8,7 @@ https://GAURAVNEGI33.github.io/resume-landing/
 
 ## 📸 Preview
 
-![ResumeFlow Landing Page](images/resume-landing-page-ss.png)
+![ResumeFlow Landing Page](images/resume-landing-page-ss1.png)
 
 ## ✨ Features
 
